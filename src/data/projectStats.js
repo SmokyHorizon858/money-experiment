@@ -8,8 +8,8 @@ export const projectStats = {
   contributionAmount: 10,
   currency: 'USD',
 
-  // Keep this true during development. Change it to false before going live.
-  showDemoSupporters: true,
+  // Keep demo entries hidden on the public site.
+  showDemoSupporters: false,
 
   // Example entry (do not add anyone without their explicit permission):
   // { id: 1, name: 'Alex', country: 'Australia', symbol: 'AU' }
